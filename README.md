@@ -7,3 +7,5 @@ Shelly EM energy monitor.
 V2 adds support for the new Shelly Motion detector
 
 V3 adds support for the Shelly Uni
+
+V4 adds support for the Shelly i3
