@@ -13,3 +13,6 @@ V4 adds support for the Shelly i3
 V5 fixes and issue with getting power from a Shelly 1PM and adds support for retreiving voltage readings from
 each channel of a Shelly EM.  NOTE- THE POWER_METER_TYPE PARAMETER ON THE SHELLY RELAY MODULE HAS CHANGED
 READ THE MODULE'S HELP FILE FOR MORE DETAILS
+
+V7 adds full support for the Shelly RGBW2 module.  NOTE - In implementing this I had to make a change to the Shelly
+dimmer S+ file.  If you upgrade to v7 you MUST use the dimmer module included in this build.
