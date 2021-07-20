@@ -16,3 +16,6 @@ READ THE MODULE'S HELP FILE FOR MORE DETAILS
 
 V7 adds full support for the Shelly RGBW2 module.  NOTE - In implementing this I had to make a change to the Shelly
 dimmer S+ file.  If you upgrade to v7 you MUST use the dimmer module included in this build.
+
+V8 corrects issues with the RGBW2, dimmer 2, and roller modules.  It also adds support for the Shelly button,
+door-window 2, H&T Sensor, Flood Sensor, and Gas Sensor.  
