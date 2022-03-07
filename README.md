@@ -19,3 +19,6 @@ dimmer S+ file.  If you upgrade to v7 you MUST use the dimmer module included in
 
 V8 corrects issues with the RGBW2, dimmer 2, and roller modules.  It also adds support for the Shelly button,
 door-window 2, H&T Sensor, Flood Sensor, and Gas Sensor.  
+
+V9 adds support for the Shelly TRV and Shelly i4.  The Shelly i4 implementation is not fully tested because
+I ran into a firmware bug that has been reported to Shelly
