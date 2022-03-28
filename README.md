@@ -22,3 +22,5 @@ door-window 2, H&T Sensor, Flood Sensor, and Gas Sensor.
 
 V9 adds support for the Shelly TRV and Shelly i4.  The Shelly i4 implementation is not fully tested because
 I ran into a firmware bug that has been reported to Shelly
+
+V10 updated TRV module to support firmware changes made by Shelly
