@@ -24,3 +24,6 @@ V9 adds support for the Shelly TRV and Shelly i4.  The Shelly i4 implementation 
 I ran into a firmware bug that has been reported to Shelly
 
 V10 updated TRV module to support firmware changes made by Shelly
+
+V11 includes bug fix for the RGBW module.  It also adds support for the Shelly Plug and has been tested with a number 
+of newer Shelly Plus and Pro relays
