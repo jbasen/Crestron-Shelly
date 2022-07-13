@@ -27,3 +27,13 @@ V10 updated TRV module to support firmware changes made by Shelly
 
 V11 includes bug fix for the RGBW module.  It also adds support for the Shelly Plug and has been tested with a number 
 of newer Shelly Plus and Pro relays
+
+V12 A significant change was made here.  After discussions with Shelly I found that in newer Shelly modules the
+security behind usernames/passwords in modules has changed significantly.  They have made it much more secure
+and this broke username/password support in the Crestron-Shelly modules.  Because I have not had any 
+complaints about this being broken I have decided to simply eliminate the support for usernames/passwords
+as these modules are designed for local control (processor to Shelly device) in a residential setting.  So,
+username/password parameter fields have been eliminated in all v12 modules.
+
+Other changes in V12 are fixes in the dimmer2 module when it is used to control a Shelly Duo bulb.  Finally,
+as requested by a user the dimmer2 module now has outputs for button presses on the switch input.
