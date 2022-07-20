@@ -39,3 +39,5 @@ Other changes in V12 are fixes in the dimmer2 module when it is used to control 
 as requested by a user the dimmer2 module now has outputs for button presses on the switch input.
 
 V13 Fixed a minor bug where the on/off feedback outputs of the dimmer module weren't updating correctly
+
+V14 Added support for the newly announced Shelly Plus H&T Sensor
