@@ -41,3 +41,5 @@ as requested by a user the dimmer2 module now has outputs for button presses on 
 V13 Fixed a minor bug where the on/off feedback outputs of the dimmer module weren't updating correctly
 
 V14 Added support for the newly announced Shelly Plus H&T Sensor
+
+V15 Fixed bug in dimmer module brightness feedback with dimmer 2
