@@ -43,3 +43,5 @@ V13 Fixed a minor bug where the on/off feedback outputs of the dimmer module wer
 V14 Added support for the newly announced Shelly Plus H&T Sensor
 
 V15 Fixed bug in dimmer module brightness feedback with dimmer 2
+
+V16 Add support for additional webhooks in the Shelly Motion 2
