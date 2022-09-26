@@ -45,3 +45,10 @@ V14 Added support for the newly announced Shelly Plus H&T Sensor
 V15 Fixed bug in dimmer module brightness feedback with dimmer 2
 
 V16 Add support for additional webhooks in the Shelly Motion 2
+
+V17 Added some minor bug fixes and user requests.  The biggest addition is a new module for a project
+documented in an article I wrote in Residential Tech Today on motorizing a window using a linear 
+actuator.  There is a new Window Control Module and a design described in the article using a Shelly
+Plus 1 PM and a Shelly Plus 2 PM.  The operation of these Shelly relays is customized using the 
+Javascript files I have added to this repository.  
+
