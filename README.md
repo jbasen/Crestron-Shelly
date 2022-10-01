@@ -52,3 +52,4 @@ actuator.  There is a new Window Control Module and a design described in the ar
 Plus 1 PM and a Shelly Plus 2 PM.  The operation of these Shelly relays is customized using the 
 Javascript files I have added to this repository.  
 
+V18 Fixed bug in relay module reported by user gerrybags
