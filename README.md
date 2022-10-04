@@ -53,3 +53,6 @@ Plus 1 PM and a Shelly Plus 2 PM.  The operation of these Shelly relays is custo
 Javascript files I have added to this repository.  
 
 V18 Fixed bug in relay module reported by user gerrybags
+
+V19 Fixed a bug in the Roller Shade module.  There is a new, v2.1, Roller Shade Module that includes
+a poll input as the automatic polling I was trying to do was causing an issue.
