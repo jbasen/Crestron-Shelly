@@ -56,3 +56,5 @@ V18 Fixed bug in relay module reported by user gerrybags
 
 V19 Fixed a bug in the Roller Shade module.  There is a new, v2.1, Roller Shade Module that includes
 a poll input as the automatic polling I was trying to do was causing an issue.
+
+V20 Added support for the Shelly Plus Wall Dimmer.  Tested with the Shelly Plus i4 and Shelly Pro 3
