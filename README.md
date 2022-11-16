@@ -1,7 +1,5 @@
 # Crestron-Shelly
 
-Note: The Shelly.clz version that I uploaded is a test version to fix an issue polling for status of Shelly TRV
-
 The modules in the demo program allow a Crestron 3 or 4 Series Processor to
 integrate with Shelly 1, Shelly 1PM, and Shelly 2.5 relays as well as the
 Shelly EM energy monitor.  
@@ -60,3 +58,9 @@ V19 Fixed a bug in the Roller Shade module.  There is a new, v2.1, Roller Shade 
 a poll input as the automatic polling I was trying to do was causing an issue.
 
 V20 Added support for the Shelly Plus Wall Dimmer.  Tested with the Shelly Plus i4 and Shelly Pro 3
+
+V21 Fixes an issue with Shelly devices that have an contact closure input. The input wasn't being 
+querried at startup for its current state.  This version also adds support for adjusting white balance
+on devices connected to the Shelly-Crestron dimmer module that have support for that feature.  Finally,
+it adds support for the upcoming Shelly Add-On.
+
