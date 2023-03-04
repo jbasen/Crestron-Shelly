@@ -64,3 +64,5 @@ querried at startup for its current state.  This version also adds support for a
 on devices connected to the Shelly-Crestron dimmer module that have support for that feature.  Finally,
 it adds support for the upcoming Shelly Add-On.
 
+V23 Adds support for the Shelly Plus Smoke detector and adds a position input to the Shelly 2.5 in Roller
+mode
