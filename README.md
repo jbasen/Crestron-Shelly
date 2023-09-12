@@ -69,3 +69,11 @@ mode
 
 V23.1 - Minimizes header size of messages sent to Shelly TRV to minimize chance of having
 messages split into multiple packets which will trigger a firmware bug.
+
+V24 - Adds support for new products released by Shelly including PRO 3EM, PRO EM, PRO EM Add-On Switch
+PRO Dual Roller PM, Support for Plus 2PM in cover mode, support for new Bluetooth Button and Bluetooth
+Door/Window Sensor, and possibly one or two others that I don't specifically remember.  
+To use the Bluetooth Button and Bluetooth door/window sensor you need to run the
+scripts I have supplied on the Shelly device that is acting as a gateway.  These scripts must be 
+customized with the IP address of the crestron processor and the port that is specified in the Shelly
+comm manager for receiving messages.
