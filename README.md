@@ -71,6 +71,11 @@ V23.1 - Minimizes header size of messages sent to Shelly TRV to minimize chance 
 messages split into multiple packets which will trigger a firmware bug.
 
 V24 - Adds support for new products released by Shelly including PRO 3EM, PRO EM, PRO EM Add-On Switch
+
+V25 - Adds support for the Shelly display.  Fixes signal allignment in the relay madule.  Adds support
+for using gen 2 api commands when communicating with plus/pro relays or plus/pro devices that include
+relay functionality as I've seen warnings that gen 1 commands will be removed from these devices in the
+future.
 PRO Dual Roller PM, Support for Plus 2PM in cover mode, support for new Bluetooth Button and Bluetooth
 Door/Window Sensor, and possibly one or two others that I don't specifically remember.  
 To use the Bluetooth Button and Bluetooth door/window sensor you need to run the
