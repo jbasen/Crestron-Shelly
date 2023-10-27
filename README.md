@@ -83,6 +83,9 @@ scripts I have supplied on the Shelly device that is acting as a gateway.  These
 customized with the IP address of the crestron processor and the port that is specified in the Shelly
 comm manager for receiving messages.
 
+V27 - Add support for Shelly 0-10v dimmer
+
+
 V26 - Adds support for Shelly BluMotion.  In addition, Shelly made a change that broke the
 JavaScript code for all their new Bluetooth devices.  So, the Bluetooth Device Scripts V2.zip
 file contains scripts that fix this isue.
