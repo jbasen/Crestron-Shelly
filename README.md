@@ -85,6 +85,8 @@ comm manager for receiving messages.
 
 V27 - Add support for Shelly 0-10v dimmer
 
+V28 - Fix bug in reading phase C power from PRO 3EM
+
 
 V26 - Adds support for Shelly BluMotion.  In addition, Shelly made a change that broke the
 JavaScript code for all their new Bluetooth devices.  So, the Bluetooth Device Scripts V2.zip
