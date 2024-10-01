@@ -91,6 +91,17 @@ V29 - Added support for Shelly Pro EM-50
 
 V30 - Fixed Issue with voltage/power reporting of some EM devices 
 
+V32 - Adds support for BLU H&T and BLU 4 button keypad.  Important - Support for these devices
+leverages Shelly's BTHOME technology instead of using custom JavaScripting as was previously 
+required to integrate Shelly BLU devices with a Crestron system.  BTHOME only runs on a Shelly
+GEN 3 device or a Shelly PRO Device.  There is a good video by Shelly that can walk you 
+through the process of getting BTHOME working.  You can find that video here:
+
+https://youtu.be/ojDMNUlaZm4?si=dSLy5Il_0RiqQosd
+
+Once the BLU device is liked to a Shelly GEN 3 or Pro device using BTHOME, it is just a matter
+of setting up Action URLs to receive updates from the BLU device.  
+
 
 
 V26 - Adds support for Shelly BluMotion.  In addition, Shelly made a change that broke the
