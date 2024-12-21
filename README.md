@@ -100,7 +100,9 @@ through the process of getting BTHOME working.  You can find that video here:
 https://youtu.be/ojDMNUlaZm4?si=dSLy5Il_0RiqQosd
 
 Once the BLU device is liked to a Shelly GEN 3 or Pro device using BTHOME, it is just a matter
-of setting up Action URLs to receive updates from the BLU device.  
+of setting up Action URLs to receive updates from the BLU device. 
+
+V33 - Fixed problem with RGBW Plus module and other misc. bug fixes
 
 
 
