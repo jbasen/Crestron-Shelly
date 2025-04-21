@@ -104,9 +104,12 @@ of setting up Action URLs to receive updates from the BLU device.
 
 V33 - Fixed problem with RGBW Plus module and other misc. bug fixes
 
-
-
-V26 - Adds support for Shelly BluMotion.  In addition, Shelly made a change that broke the
+Adds support for Shelly BluMotion.  In addition, Shelly made a change that broke the
 JavaScript code for all their new Bluetooth devices.  So, the Bluetooth Device Scripts V2.zip
 file contains scripts that fix this isue.
 
+V36 Adds support for PLUS TRV, PLUS Uni (using the relay module not the old Uni module
+which should now only be used for the original uni), and the PRO RGBWW.  The PRO RGBWW
+is only supported when configured as a device profile of light or rgbx2light.  Other
+device profiles are not supported.  This version also supports multiple outputs of the
+PRO DImmer 2PM.  There are other misc. fixes
