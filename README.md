@@ -1,4 +1,43 @@
 # Crestron-Shelly
+The Crestron-Shelly driver is going through a ground up re-write.  The new
+driver will still run on both Crestron 3 and 4 series processors.  The new 
+driver significantly improves feedback from Shelly devices by leveraging UDP
+messages sent by Shelly devices.  However, this limits the driver to only working
+with Generation 2+ Shelly devices.  You will need to use the old driver for 
+Generation 1 Shelly devices.
+
+This is a first Beta release of the new driver and this first release supports
+the following Generation 2+ Shelly devices:
+Shelly devies that include one, or more relays.  
+Shelly devices that include one, or more switch inputs.
+Shelly PM devices that monitor power consumed by connected appliances
+Shelly EM devices that monitor energy usage
+Shelly Cover devices
+Shelly Dimmer devices
+Shelly RGB devices
+Shelly H&T devices
+
+Unlike the original driver, the new driver's modules are designed to be building
+blocks.  For example, for a Shelly PRO 2PM you would use two relay modules, two PM
+feedback modules, and two switch input modules.  This paradigm allows users to 
+support a wider range of Shelly devices and to only include modules that cover the
+features they need.  So, if you don't have switches connected to the inputs of a 
+PRO 2PM, then you don't need to add the Switch Input modules to your program.  If
+you just have one switch connected to the PRO 2PM, then just use one switch input
+module.
+
+The driver has been tested with: Shelly Gen 4 Plug, Shelly PRO 2PM, Shelly EM50,
+Shelly PRO Dimmer 2PM, Shelly PRO Dual Cover PM, Shelly PRO RGBWW, Shelly H&T Gen 3.
+
+Once I have feedback and addressed any issues with the new driver code I will begin 
+adding support for additonal Shelly products.
+
+Thanks
+
+_____________________________________________________________________________________
+
+
+Original Crestron-Shelly Driver
 
 The modules in the demo program allow a Crestron 3 or 4 Series Processor to
 integrate with Shelly 1, Shelly 1PM, and Shelly 2.5 relays as well as the
