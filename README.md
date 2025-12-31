@@ -6,6 +6,21 @@ messages sent by Shelly devices.  However, this limits the driver to only workin
 with Generation 2+ Shelly devices.  You will need to use the old driver for 
 Generation 1 Shelly devices.
 
+Beta 2 of the driver has now been added to this GitHub.  The new version
+includes significant improvments to the parsing of UDP messages sent by
+Shelly Gen 2+ devices.  It also adds support for Shelly Flood Gen 4 and other 
+Gen 2+ devices that generate an alarm output.  It also BEGINS to add support
+for the Shelly BLU TRV when connected to a Shelly Gen 3 Blutetooth Gateway.
+The driver has been tested with a single TRV and I expect the code to support
+the TRV will continue to evolve.  Right now the TRV is the only device that
+can connect to the Shelly Gen 3 gateway that is supported.
+
+If you want to try using more than one TRV, then the first should be set to Channel
+200, the second to Channel 203, and the third to Channel 206.  I'm talking to 
+Shelly to better understand the underlying addressing so I can improve this.
+
+____________________________________________________________________________
+
 This is a first Beta release of the new driver and this first release supports
 the following Generation 2+ Shelly devices:
 Shelly devies that include one, or more relays.  
