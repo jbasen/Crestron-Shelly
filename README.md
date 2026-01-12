@@ -12,7 +12,8 @@ and BLU Door/Window Sensor.  These BLU devices require the use of a Shelly
 Gen 3 gateway.  Instructions for pairing are included in the BLU modules 
 help.  There has also been an update to the Comm Manager module and a 
 change to the initialization process.  The demo program includes these 
-changes.
+changes.  One additional note, this new version removes the necessity of
+special channel addressing for the TRV (200, 203, 206, etc.)
 
 Beta 2 of the driver has now been added to this GitHub.  The new version
 includes significant improvments to the parsing of UDP messages sent by
