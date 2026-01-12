@@ -6,6 +6,14 @@ messages sent by Shelly devices.  However, this limits the driver to only workin
 with Generation 2+ Shelly devices.  You will need to use the old driver for 
 Generation 1 Shelly devices.
 
+Beta 3 of the driver has now been added to this GitHub.  The new version
+adds support for Shelly BLU devices including the TRV, BLU H&T, BLU Button,
+and BLU Door/Window Sensor.  These BLU devices require the use of a Shelly
+Gen 3 gateway.  Instructions for pairing are included in the BLU modules 
+help.  There has also been an update to the Comm Manager module and a 
+change to the initialization process.  The demo program includes these 
+changes.
+
 Beta 2 of the driver has now been added to this GitHub.  The new version
 includes significant improvments to the parsing of UDP messages sent by
 Shelly Gen 2+ devices.  It also adds support for Shelly Flood Gen 4 and other 
