@@ -6,6 +6,16 @@ messages sent by Shelly devices.  However, this limits the driver to only workin
 with Generation 2+ Shelly devices.  You will need to use the old driver for 
 Generation 1 Shelly devices.
 
+Beta 4 of the driver has now been added to this GitHub.  The new version 
+adds support for additional Shelly BLU devices including the BLU Wall Switch 4,
+BLU RC Button 4 US ZB, and BLU H&T Display ZB.  To support the Wall Switch
+and RC Button 4, a new parameter was added to the Shelly BLU Button Gen
+2+ S+ module.  Be aware that this will shift signals on the module where it has
+been used in SimplWindows programs.  Some behavior issues were found when
+with the Shelly BLU H&T Display ZB.  These have been reported to Shelly.
+All BLU modules have been tested by pairing them with the Shelly Gen3 Bluetooth
+Gateway.
+
 Beta 3 of the driver has now been added to this GitHub.  The new version
 adds support for Shelly BLU devices including the TRV, BLU H&T, BLU Button,
 and BLU Door/Window Sensor.  These BLU devices require the use of a Shelly
