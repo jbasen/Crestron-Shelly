@@ -8,23 +8,40 @@ Generation 1 Shelly devices.
 
 v1 of the driver has now been added to this GitHub.  The new version 
 supports:
-Shelly devies that include one, or more relays  
+Shelly devies that include one, or more relays
+
 Shelly devices that include one, or more switch inputs
+
 Shelly PM devices that monitor power consumed by connected appliances
+
 Shelly EM devices that monitor energy usage
+
 Shelly Cover devices
+
 Shelly Dimmer devices
+
 Shelly RGB devices
+
 Shelly H&T devicesShelly Flood Gen 4 and other Gen 2+ devices that generate an alarm output
+
 Shelly Smart Water Valve
+
 Shelly Irrigation Controller
+
 BLU Wall Switch 4
+
 BLU RC Button 4 US ZB
+
 BLU H&T Display ZB
+
 BLU TRV
+
 BLU H&T
-BLU Button,
+
+BLU Button
+
 BLU Door/Window Sensor
+
 BLU Weather Station
 
 Unlike the original driver, the new driver's modules are designed to be building
