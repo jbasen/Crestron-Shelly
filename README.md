@@ -1,55 +1,31 @@
 # Crestron-Shelly
-The Crestron-Shelly driver is going through a ground up re-write.  The new
-driver will still run on both Crestron 3 and 4 series processors.  The new 
+The Crestron-Shelly driver has gone through a ground up re-write.  The new
+driver will still runs on both Crestron 3 and 4 series processors.  The new 
 driver significantly improves feedback from Shelly devices by leveraging UDP
 messages sent by Shelly devices.  However, this limits the driver to only working
 with Generation 2+ Shelly devices.  You will need to use the old driver for 
 Generation 1 Shelly devices.
 
-Beta 4 of the driver has now been added to this GitHub.  The new version 
-adds support for additional Shelly BLU devices including the BLU Wall Switch 4,
-BLU RC Button 4 US ZB, and BLU H&T Display ZB.  To support the Wall Switch
-and RC Button 4, a new parameter was added to the Shelly BLU Button Gen
-2+ S+ module.  Be aware that this will shift signals on the module where it has
-been used in SimplWindows programs.  Some behavior issues were found when
-with the Shelly BLU H&T Display ZB.  These have been reported to Shelly.
-All BLU modules have been tested by pairing them with the Shelly Gen3 Bluetooth
-Gateway.
-
-Beta 3 of the driver has now been added to this GitHub.  The new version
-adds support for Shelly BLU devices including the TRV, BLU H&T, BLU Button,
-and BLU Door/Window Sensor.  These BLU devices require the use of a Shelly
-Gen 3 gateway.  Instructions for pairing are included in the BLU modules 
-help.  There has also been an update to the Comm Manager module and a 
-change to the initialization process.  The demo program includes these 
-changes.  One additional note, this new version removes the necessity of
-special channel addressing for the TRV (200, 203, 206, etc.)
-
-Beta 2 of the driver has now been added to this GitHub.  The new version
-includes significant improvments to the parsing of UDP messages sent by
-Shelly Gen 2+ devices.  It also adds support for Shelly Flood Gen 4 and other 
-Gen 2+ devices that generate an alarm output.  It also BEGINS to add support
-for the Shelly BLU TRV when connected to a Shelly Gen 3 Blutetooth Gateway.
-The driver has been tested with a single TRV and I expect the code to support
-the TRV will continue to evolve.  Right now the TRV is the only device that
-can connect to the Shelly Gen 3 gateway that is supported.
-
-If you want to try using more than one TRV, then the first should be set to Channel
-200, the second to Channel 203, and the third to Channel 206.  I'm talking to 
-Shelly to better understand the underlying addressing so I can improve this.
-
-____________________________________________________________________________
-
-This is a first Beta release of the new driver and this first release supports
-the following Generation 2+ Shelly devices:
-Shelly devies that include one, or more relays.  
-Shelly devices that include one, or more switch inputs.
+v1 of the driver has now been added to this GitHub.  The new version 
+supports:
+Shelly devies that include one, or more relays  
+Shelly devices that include one, or more switch inputs
 Shelly PM devices that monitor power consumed by connected appliances
 Shelly EM devices that monitor energy usage
 Shelly Cover devices
 Shelly Dimmer devices
 Shelly RGB devices
-Shelly H&T devices
+Shelly H&T devicesShelly Flood Gen 4 and other Gen 2+ devices that generate an alarm output
+Shelly Smart Water Valve
+Shelly Irrigation Controller
+BLU Wall Switch 4
+BLU RC Button 4 US ZB
+BLU H&T Display ZB
+BLU TRV
+BLU H&T
+BLU Button,
+BLU Door/Window Sensor
+BLU Weather Station
 
 Unlike the original driver, the new driver's modules are designed to be building
 blocks.  For example, for a Shelly PRO 2PM you would use two relay modules, two PM
@@ -61,10 +37,35 @@ you just have one switch connected to the PRO 2PM, then just use one switch inpu
 module.
 
 The driver has been tested with: Shelly Gen 4 Plug, Shelly PRO 2PM, Shelly EM50,
-Shelly PRO Dimmer 2PM, Shelly PRO Dual Cover PM, Shelly PRO RGBWW, Shelly H&T Gen 3.
+Shelly PRO Dimmer 2PM, Shelly PRO Dual Cover PM, Shelly PRO RGBWW, Shelly H&T Gen 3,
+and the above mentioned Shelly devices.
 
-Once I have feedback and addressed any issues with the new driver code I will begin 
-adding support for additonal Shelly products.
+Some behavior issues were found with the Shelly BLU H&T Display ZB and the Shelly
+Weather Station.  The Shelly Weather Station doesn't report all measured 
+data through the API.  For example, temperature, humidity, and pressure are not
+reported through the API while wind speed is.  These have been reported to Shelly.
+
+I have also noticed that the Shelly H&T Gen 3 is very stingy when it comes to sending
+data out through the API.  Even at powerup the device doesn't send out a data update.
+
+All BLU modules have been tested by pairing them with the Shelly Gen3 Bluetooth
+Gateway.  Pairing Shelly BLU devices through any other Shelly devices has not been
+tested.  
+
+It is very important that Shelly BLU devices be paired with the gateway
+using the gateway's web page.  If you perform the pairing with the Shelly app 
+the pairing will not work properly and you won't be able to gather data from
+the Shelly BLU device or control it.  Please carefully read the help by
+pressing F1 in SimplWindow when the S+ modules are selected.
+
+The Shelly_UDP S# v1.zip is the full C#/S# source code for this driver. 
+Becase the driver will run on both Crestron 3-Series and 4-Series 
+processors, you will need VS2008 to compile this code.
+
+With the release of this driver there won't be any futher updates or
+bug fixes to the original Shelly driver.  Over time, with the support
+of multiple versions of the Shelly API, the driver code has become
+very convoluted and changes are extremely difficult.
 
 Thanks
 
