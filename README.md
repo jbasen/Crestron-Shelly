@@ -9,7 +9,7 @@ Generation 1 Shelly devices.
 v1 of the driver has now been added to this GitHub.  The new version 
 supports:
 
-Shelly devies that include one, or more relays
+Shelly devices that include one, or more relays
 
 Shelly devices that include one, or more switch inputs
 
@@ -23,7 +23,9 @@ Shelly Dimmer devices
 
 Shelly RGB devices
 
-Shelly H&T devicesShelly Flood Gen 4 and other Gen 2+ devices that generate an alarm output
+Shelly H&T devices
+
+Shelly Flood Gen 4 and other Gen 2+ devices that generate an alarm output
 
 Shelly Smart Water Valve
 
