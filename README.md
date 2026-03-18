@@ -8,6 +8,7 @@ Generation 1 Shelly devices.
 
 v1 of the driver has now been added to this GitHub.  The new version 
 supports:
+
 Shelly devies that include one, or more relays
 
 Shelly devices that include one, or more switch inputs
