@@ -6,6 +6,9 @@ messages sent by Shelly devices.  However, this limits the driver to only workin
 with Generation 2+ Shelly devices.  You will need to use the old driver for 
 Generation 1 Shelly devices.
 
+v1.1 - Added support for Shelly Presence Sensor Gen 4, Shelly i4/i4 DC Gen 4,
+and Shelly Power Strip 4 Gen 4.
+
 v1.01 - Added channel numbers of 100+ to the temperature and humidity sensor
 modules to support their use with temperature and humidity add-ons to other
 devices.  This is demonstrated with the smart water valve in the demo program.
