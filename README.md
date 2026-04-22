@@ -6,6 +6,8 @@ messages sent by Shelly devices.  However, this limits the driver to only workin
 with Generation 2+ Shelly devices.  You will need to use the old driver for 
 Generation 1 Shelly devices.
 
+v1.2 - Added support for Shelly Plus RGBW PM 
+
 v1.1 - Added support for Shelly Presence Sensor Gen 4, Shelly i4/i4 DC Gen 4,
 and Shelly Power Strip 4 Gen 4.
 
