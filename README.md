@@ -4,7 +4,8 @@ driver will still runs on both Crestron 3 and 4 series processors.  The new
 driver significantly improves feedback from Shelly devices by leveraging UDP
 messages sent by Shelly devices.  However, this limits the driver to only working
 with Generation 2+ Shelly devices.  You will need to use the old driver for 
-Generation 1 Shelly devices.
+Generation 1 Shelly devices.  But due to the age of Generation 1 Shelly devices,
+the driver code is no longer supported and won't be updated.
 
 v1.3 - Adds support for Shelly PRO Add-On.  This should also work with the Plus
 Add-On but that hasn't been tested.  also added an output to the BLU Motion Sensor
