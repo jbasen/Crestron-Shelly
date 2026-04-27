@@ -6,6 +6,11 @@ messages sent by Shelly devices.  However, this limits the driver to only workin
 with Generation 2+ Shelly devices.  You will need to use the old driver for 
 Generation 1 Shelly devices.
 
+v1.3 - Adds support for Shelly PRO Add-On.  This should also work with the Plus
+Add-On but that hasn't been tested.  also added an output to the BLU Motion Sensor
+module that pulses 1 minute aftermotion is no longer detected.  The 1 minute delay
+is built into the Shelly device and is not something the code has control of.
+
 v1.2 - Added support for Shelly Plus RGBW PM 
 
 v1.1 - Added support for Shelly Presence Sensor Gen 4, Shelly i4/i4 DC Gen 4,
