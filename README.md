@@ -7,6 +7,8 @@ with Generation 2+ Shelly devices.  You will need to use the old driver for
 Generation 1 Shelly devices.  But due to the age of Generation 1 Shelly devices,
 the driver code is no longer supported and won't be updated.
 
+v1.4 - Adds support for the Shelly Remote when connected to a Gen3 Blu Gateway.
+
 v1.3 - Adds support for Shelly PRO Add-On.  This should also work with the Plus
 Add-On but that hasn't been tested.  also added an output to the BLU Motion Sensor
 module that pulses 1 minute aftermotion is no longer detected.  The 1 minute delay
